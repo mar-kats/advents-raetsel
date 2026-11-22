@@ -1,0 +1,82 @@
+{
+  "wordle": {
+    "title": "Worträtsel",
+    "targetWord": "DANKE",
+    "maxAttempts": 6,
+    "completionMessage": "Danke, dass du immer für mich da bist! Die nächsten 23 Türchen sollen dir jeden Tag so viel Freude bereiten, wie du sie mir in den letzten zwei Jahren gegeben hast."
+  },
+  "connections": {
+    "title": "4×4 Kategorien",
+    "maxMistakes": 4,
+    "categories": [
+      {
+        "level": 1,
+        "color": "#f9df6d",
+        "title": "Meilensteine",
+        "items": ["HALLOWEEN", "LA PASIÓN", "NEUJAHR", "OSTERN"]
+      },
+      {
+        "level": 2,
+        "color": "#a0c35a",
+        "title": "Mitbringsel",
+        "items": ["MONSTER", "TEE", "BADEZUSATZ", "BAREBELLS"]
+      },
+      {
+        "level": 3,
+        "color": "#b0c4ef",
+        "title": "Urlaubserinnerungen",
+        "items": ["BUS", "BRÜCKE", "BOOT", "POOL"]
+      },
+      {
+        "level": 4,
+        "color": "#ba81c5",
+        "title": "10/10",
+        "items": ["CHIARA", "PIZZA PINO", "TIRAMISU", "HARRY POTTER 7"]
+      }
+    ],
+    "completionMessage": "Danke für die Inspiration von letztem Jahr, ein bisschen abschauen muss erlaubt sein. Ich hoffe, das Lösen hat dir genauso viel Spaß gemacht wie mir das Erstellen."
+  },
+  "strands": {
+    "title": "Wortnetz",
+    "theme": "Our favourite pastime",
+    "rows": 8,
+    "cols": 6,
+    "grid": [
+      ["W", "E", "A", "S", "I", "N"],
+      ["N", "O", "P", "C", "S", "I"],
+      ["S", "N", "O", "T", "E", "R"],
+      ["H", "O", "J", "U", "R", "I"],
+      ["S", "H", "R", "R", "G", "N"],
+      ["I", "N", "I", "O", "R", "F"],
+      ["G", "N", "S", "C", "L", "I"],
+      ["M", "A", "E", "R", "M", "E"]
+    ],
+    "spangram": {
+      "word": "HORRORFILME",
+      "path": [[3,0],[3,1],[4,2],[4,3],[5,3],[5,4],[5,5],[6,5],[6,4],[7,4],[7,5]]
+    },
+    "themeWords": [
+      {
+        "word": "WEAPONS",
+        "path": [[0,0],[0,1],[0,2],[1,2],[1,1],[1,0],[2,0]]
+      },
+      {
+        "word": "SINISTER",
+        "path": [[0,3],[0,4],[0,5],[1,5],[1,4],[2,3],[2,4],[2,5]]
+      },
+      {
+        "word": "CONJURING",
+        "path": [[1,3],[2,2],[2,1],[3,2],[3,3],[3,4],[3,5],[4,5],[4,4]]
+      },
+      {
+        "word": "SHINING",
+        "path": [[4,0],[4,1],[5,0],[5,1],[5,2],[6,1],[6,0]]
+      },
+      {
+        "word": "SCREAM",
+        "path": [[6,2],[6,3],[7,3],[7,2],[7,1],[7,0]]
+      }
+    ],
+    "completionMessage": "Staaaark! Ich fand das ziemlich schwer... hoffe es war nicht zu anstrengend. Hab dich ganz doll lieb!"
+  }
+}
